@@ -20,14 +20,13 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           navItems={[
-            { name: 'hero', id: '#hero' },
-            { name: 'about', id: '#about' },
-            { name: 'how-to-buy', id: '#how-to-buy' },
-            { name: 'tokenomics', id: '#tokenomics' },
-            { name: 'footer', id: '#footer' },
+            { name: 'hero', id: 'hero' },
+            { name: 'about', id: 'about' },
+            { name: 'how-to-buy', id: 'how-to-buy' },
+            { name: 'tokenomics', id: 'tokenomics' },
+            { name: 'footer', id: 'footer' },
           ]}
           logoSrc="/images/logo.svg"
-          logoAlt="Aurora Logo"
           buttonText="Get Early Access"
           onButtonClick={() => console.log('Button Clicked')}
         />
